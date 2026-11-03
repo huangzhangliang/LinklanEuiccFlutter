@@ -60,7 +60,9 @@ Flutter (Dart)
 ```yaml
 dependencies:
   linklan_euicc:
-    path: ./plugins/linklan_euicc   
+    git:
+      url: https://github.com/huangzhangliang/LinklanEuiccFlutter.git
+      path: linklan_euicc
 ```
 
 执行：
